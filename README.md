@@ -1,6 +1,6 @@
-# Node.js Tutorial with Hapi
+# Build a Secure Node.js Application Tutorial with Hapi
 
-This is a demo application for the [Node.js Crash Course](http://bit.ly/node-crash-course)!
+This is a sample application for the article [Build a Secure Node.js Application with JavaScript Async Await Using Hapi]().
 
 Built with love, using:
 
@@ -20,9 +20,9 @@ Steps to run the web application:
 3. Change to the directory that contains the project files
 4. Run `npm install` to install all the dependencies
 5. Run `npm run dev` to start the development server
-6. Browse to http://localhost:8800
+6. Browse to http://localhost:8080
 
-### Run the tests
+## Run the tests
 
 ```
 > npm run test
