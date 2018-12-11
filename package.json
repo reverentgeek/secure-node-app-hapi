@@ -1,0 +1,36 @@
+{
+  "name": "node-hapi-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -e html,css,js,ejs",
+    "lint": "eslint --fix test/ src/",
+    "start": "node .",
+    "test": "lab -c"
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bell": "^9.4.0",
+    "blipp": "^3.1.1",
+    "boom": "^7.3.0",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "hapi": "^17.8.1",
+    "hapi-auth-cookie": "^9.1.0",
+    "hapi-pino": "^5.1.0",
+    "inert": "^5.1.2",
+    "joi": "^14.3.0",
+    "vision": "^5.4.3"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "eslint": "^5.10.0",
+    "eslint-config-leankit": "^4.5.0",
+    "lab": "^18.0.0",
+    "nodemon": "^1.18.7",
+    "testdouble": "^3.9.1"
+  }
+}
